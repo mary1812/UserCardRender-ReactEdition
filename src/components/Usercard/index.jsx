@@ -5,7 +5,7 @@ import Description from "../Description";
 
 class UserCard extends Component {
   render() {
-    const { id, firstName, lastName, profilePicture, contacts } = this.props;
+    const {firstName, lastName, profilePicture } = this.props;
 
     return (
       <div className = "usercardWrapper">

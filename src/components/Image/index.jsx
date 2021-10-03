@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import data from './../../data';
 
 
 class Image extends Component {

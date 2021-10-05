@@ -23,5 +23,6 @@ class UserCard extends Component {
 
 UserCard.propTypes ={
   fullName: PropTypes.string.isRequired,
+  profilePicture: PropTypes.string.isRequired,
 }
 export default UserCard;

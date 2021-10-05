@@ -22,7 +22,6 @@ class UserCard extends Component {
 }
 
 UserCard.propTypes ={
-  firstName: PropTypes.string,
-  lastName: PropTypes.string
+  fullName: PropTypes.string.isRequired,
 }
 export default UserCard;

@@ -5,17 +5,15 @@ import Description from "../Description";
 
 class UserCard extends Component {
   render() {
-    const { firstName, lastName, profilePicture } = this.props;
+    const { fullName, profilePicture } = this.props;
     return (
       <div className="usercardWrapper">
         <Image
           profilePicture={profilePicture}
-          firstName={firstName}
-          lastName={lastName}
+          fullName={fullName}
         />
         <h1 className="fullName">
-          {firstName}
-          {lastName}
+          {fullName}
         </h1>
         <Description />
       </div>

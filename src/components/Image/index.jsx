@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 
 class Image extends Component {
   render() {
-    const {profilePicture, firstName, lastName} = this.props;
+    const {profilePicture, fullName} = this.props;
     return (
       <div className="imgWrapper">
-        <img className = "img" src={profilePicture} alt={firstName+ ' '+lastName} />
+        <img className = "img" src={profilePicture} alt={fullName} />
       </div>
     );
   }

@@ -10,8 +10,7 @@ class CardList extends Component {
           return <UserCard
             key={user.id}
             profilePicture={user.profilePicture}
-            firstName={user.firstName}
-            lastName={user.lastName}
+            fullName={user.firstName + " " + user.lastName}
           />;
         })}
       </section>
